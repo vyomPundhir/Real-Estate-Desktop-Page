@@ -7,21 +7,39 @@
 .main{
   height: 759px;
   background-size: 100%;
-  /* background-position-x: 100%; */
-  /* background-position-y: 100%; */
   display: flex;
   flex-direction: column;
   background-image: url(./Photos/mainBackground\ -\ Copy.png);
+  /* filter: brightness(50%); */
+  background-color: grey;
+  background-blend-mode: multiply;
 }
 .nav{
+  margin-left: 76px;
+  width: 87.5%;
+  border-bottom: 1.8px solid rgb(106, 106, 106);
+  height: 96px;
   display: flex;
   flex-direction: row;
+  /* background-color: blue; */
+  align-items: center;
+  gap: 419px;
 }
-.nav-menu img{
-  
 
+.nav-logo img{
+  width: 118px;
+  margin-left: 50px;
+  margin-top: -5px;
 }
 .nav-menu{
   display: flex;
   flex-direction: row;
+  gap: 60px;
+
+}
+.nav-des{
+  color: rgb(192, 191, 191);
+  font-size: 16px;
+  padding-top: 5px;
+  
 }
