@@ -59,6 +59,7 @@
   color: white;
   font-size: 60px;
   font-weight: 800;
+  letter-spacing: 1px;
   line-height: 70px;
 }
 .home-des{
@@ -79,4 +80,22 @@
   background-color: #6663E9;
   padding-top: 16px;
   border-radius: 50px;
+}
+/* logo- section */
+.multi-logo{
+  margin-top: -97.2px;
+  position: absolute;
+  margin-left: 33px;
+  background: white;
+  width: 94.5%;
+  height: 160px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  gap: 75px;
+}
+.logo-menu img{
+  width: 130px;
 }
