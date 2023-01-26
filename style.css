@@ -99,3 +99,51 @@
 .logo-menu img{
   width: 130px;
 }
+/* best Estate section */
+.best{
+  background-color: rgb(241, 241, 241);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.best header{
+  width: 430px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: rgb(38, 38, 38);
+  font-size: 49.5px;
+  font-weight: 900;
+  line-height: 68px;
+  margin-top: 152px;
+}
+.best-1{
+  width: 972px;
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+  margin-top: 3px;
+  margin-left: 30px;
+}
+.best-1 .home-2 .hs-img{
+  padding-top: 100px;
+}
+.hs-img img{
+  /* margin-left: 18px; */
+  border-radius: 17px;
+  width: 307px;
+  height: 337px;
+}
+.hs-des{
+  width: 100px;
+}
+.best-2{
+  display: flex;
+  flex-direction: row;
+}
+.best-3{
+  display: flex;
+  flex-direction: row;
+}
