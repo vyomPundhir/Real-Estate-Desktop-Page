@@ -536,12 +536,18 @@
 }
 .right .location .menu{
   font-size: 15px;
+  color: rgb(89, 88, 88);
+  font-weight: 600;
 }
 .right .contact .menu{
   font-size: 15px;
+  color: rgb(89, 88, 88);
+  font-weight: 600;
 }
 .right .legals .menu{
   font-size: 15px;
+  color: rgb(89, 88, 88);
+  font-weight: 600;
 }
 .m{
   padding-top: 5px;
