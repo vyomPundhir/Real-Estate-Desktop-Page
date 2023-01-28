@@ -453,7 +453,96 @@
   color: #6663E9;
   font-weight: 800;
 }
-
-
-
-
+/* footer section */
+.footer{
+  display: flex;
+  flex-direction: row;
+  height: 378.5px;
+}
+.footer .left{
+  width: 50%;
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 17px;
+}
+.footer .left .logo img{
+  width: 148px;
+  margin-left: 130px;
+  margin-top: 74px;
+}
+.footer .left .media{
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  margin-left: 127px;
+}
+.footer .left .media .fb{
+  width: 41.5px;
+}
+.footer .left .media .tw{
+  width: 41.5px;
+}
+.footer .left .media .ig{
+  width: 41.5px;
+}
+.footer .left .detail{
+  width: 280px;
+  margin-left: 127px;
+  line-height: 30px;
+  padding-top: 17px;
+  color: rgb(73, 73, 73);
+  font-weight: 500;
+  font-size: 17px;
+}
+.footer .right{
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  /* gap: 130px; */
+}
+.footer .right .location{
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  margin-top: 55px;
+  margin-left: 30px;
+}
+.footer .right .contact{
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  margin-top: 55px;
+  margin-left: 120px;
+}
+.footer .right .legals{
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  margin-top: 55px;
+  margin-left: 115px;
+}
+.right .location .tittle{
+  font-weight: 700;
+  font-size: 17px;
+}
+.right .contact .tittle{
+  font-weight: 700;
+  font-size: 17px;
+}
+.right .legals .tittle{
+  font-weight: 700;
+  font-size: 17px;
+}
+.right .location .menu{
+  font-size: 15px;
+}
+.right .contact .menu{
+  font-size: 15px;
+}
+.right .legals .menu{
+  font-size: 15px;
+}
+.m{
+  padding-top: 5px;
+}
