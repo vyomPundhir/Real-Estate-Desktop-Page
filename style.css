@@ -101,7 +101,8 @@
 }
 /* best Estate section */
 .best{
-  height: 1700px;
+  padding-top: 50px;
+  height: 1800px;
   background-color: rgb(241, 241, 241);
   display: flex;
   flex-direction: column;
@@ -117,7 +118,7 @@
   font-size: 49.5px;
   font-weight: 900;
   line-height: 68px;
-  margin-top: -50px;
+  /* margin-top: 0px; */
 }
 .best-1{
   width: 972px;
@@ -377,6 +378,82 @@
   margin-left: 90px;
   margin-top: 125px;
 }
+/* subscribe section */
+.subs-bg{
+  background-color: rgb(241, 241, 241);
+  padding-top: 200px;
+  height: 693px;
+}
+.subs{
+  height: 443.68px;
+  width: 1090.8px;
+  background: #6663e9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 61px;
+  border-radius: 60px;
+}
+.subs .head{
+  letter-spacing: 0.6px;
+  width: 750px;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: -15px;
+}
+.subs .des{
+  margin-top: 26px;
+  color: white;
+  letter-spacing: 0.5px;
+  font-size: 14.5px;
+  width: 540px;
+  text-align: center;
+  line-height: 27px;
+}
+.subs .btns{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  padding-left:130px;
+  width: 800px;
+  gap: 15px;
+  margin-top: 50px;
+}
+.subs .btns .email img{
+  width: 23px;
+  margin-left: 20px;
+}
+.subs .btns .email{
+  width: 395px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: #4847b4;
+  color: #9c9bc2;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.subs .btns .email .enter{
+  margin-left: 16px;
+  font-size: 13px;
+}
+.subs .btns .subs-btn{
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  padding-top: 15px;
+  text-align: center;
+  background-color: #fff;
+  font-size:14px;
+  color: #6663E9;
+  font-weight: 800;
+}
+
 
 
 
